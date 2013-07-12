@@ -1,9 +1,16 @@
 //reverse animation after marker
+//You may add a compMarker checkbox control to the layer
+//which will make the expression to take markers from composition
+//if needed. Otherwise layer markers will be used
 
-if(effect("compMarker?")("Checkbox")==1){
-  mrkr = thisComp.marker;
+
+try{
+	if(effect("compMarker")("Checkbox")==1){
+		mrkr = thisComp.marker;
+	}
+	else mrkr = marker
 }
-else mrkr = marker
+catch(err){ mrkr = marker}
 
 n = 0;
 if (mrkr.numKeys > 0){
