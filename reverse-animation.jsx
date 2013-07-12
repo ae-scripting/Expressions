@@ -1,10 +1,11 @@
-//reverse animation after marker
-//You may add a compMarker checkbox control to the layer
-//which will make the expression to take markers from composition
-//if needed. Otherwise layer markers will be used
-//
-//
-//
+/**
+ * @author [author]
+ * @description reverse animation after marker You may add a compMarker checkbox control to the layer
+ * which will make the expression to take markers from composition
+ * if needed. Otherwise layer markers will be used
+ * @todo [description]
+ */
+
 
 try{
 	if(effect("compMarker")("Checkbox")==1){
