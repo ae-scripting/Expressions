@@ -1,4 +1,10 @@
-//just a simple expression to delay parenting selected property
+/**
+ * @author [author]
+ * @description just a simple expression to delay parenting selected property
+ *
+ *
+ * @todo [description]
+ */
 
 delta = index;
 n = thisComp.layer(1).transform.position; //choose null and prop

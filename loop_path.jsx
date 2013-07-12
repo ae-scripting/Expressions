@@ -1,5 +1,10 @@
-//allows for temp parenting
-//you need one layer control and one checkbox control for this
+/**
+ * @author [author]
+ * @description allows for temp parenting you need
+ * one layer control and one checkbox control for this
+ *
+ * @todo [description]
+ */
 
 try{
   target = effect(1)(1).transform.position; //target layer
