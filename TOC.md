@@ -44,13 +44,13 @@
 --------------  
 
 ###[timeline.jsx](https://raw.github.com/ae-scripting/Expressions/master/timeline.jsx)  
-
-// function to getting current layer on time line
-// || start (int) : first index of layers in comp
-// || end (int) : last index of layers
-
-// You should add thwo sliders - "startLayer" and "endLayer"
-// by Timur Constantinov
+/**
+ * @author Timur Constantinov
+ * @description function to getting current layer on time line
+ * || start (int) : first index of layers in comp
+ * || end (int) : last index of layers
+ * You should add two sliders - "startLayer" and "endLayer"
+ */
 
 --------------  
 

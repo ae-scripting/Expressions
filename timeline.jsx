@@ -1,10 +1,11 @@
+/**
+ * @author Timur Constantinov
+ * @description function to getting current layer on time line
+ * || start (int) : first index of layers in comp
+ * || end (int) : last index of layers
+ * You should add two sliders - "startLayer" and "endLayer"
+ */
 
-// function to getting current layer on time line
-// || start (int) : first index of layers in comp
-// || end (int) : last index of layers
-
-// You should add thwo sliders - "startLayer" and "endLayer"
-// by Timur Constantinov
 
 function getCurrentLayer(start, end) {
   arr = [];//array for current layers in time line
