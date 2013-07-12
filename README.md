@@ -3,7 +3,7 @@ Expressions
 
 a loose collection of After Effects expressions  
 
-They are not universalized. To do this check out these tools:  
+They may not be universalized. To do this check out these tools:  
 
 universalization helper tools  
 ----
